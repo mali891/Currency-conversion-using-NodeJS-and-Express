@@ -1,0 +1,20 @@
+{
+  "name": "express-oxford-dictionary-api",
+  "version": "1.0.0",
+  "description": "Query Oxford Dictionary API using NodeJS, Express and Pug templating",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "request": "^2.83.0"
+  }
+}

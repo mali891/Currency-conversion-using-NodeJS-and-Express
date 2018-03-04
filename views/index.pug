@@ -1,0 +1,27 @@
+extends layout.pug
+block content
+    
+    h1 Currency Converter
+    br
+    form(action="/results" method="POST")
+        input(type="number" placeholder="Enter amount to convert" style="width:100%; padding:10px" name="number" id="number")
+        br
+        br
+        label(for="convertFrom") Convert from &nbsp;
+        select(id="convertFrom" name="convertFrom") 
+            option(value="USD") US Dollars
+            option(value="GBP") British Pounds
+            option(value="AUD") Australian Dollars
+            option(value="EUR") Euros
+        br
+        br    
+        label(for="convertTo") Convert to &nbsp;
+        select(id="convertTo" name="convertTo")
+            option(value="USD") US Dollars
+            option(value="GBP") British Pounds
+            option(value="AUD") Australian Dollars
+            option(value="EUR") Euros
+        br
+        br
+        br
+        button(type="submit" class="btn btn-primary") Check value

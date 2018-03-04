@@ -1,0 +1,15 @@
+extends layout.pug
+block content
+    
+    if number
+        h1 Conversion results
+        hr
+        h3 Convert #{number} #{convertFrom} to #{convertTo}
+        br
+        blockquote Results: #{result} #{convertTo}
+        a(class="btn btn-primary" href="/") Convert another value
+    else
+        h1 Please enter a value to convert
+        hr
+        a(class="btn btn-primary" href="/") Try again
+//- 
