@@ -7,4 +7,4 @@ Currency conversion using NodeJS and Express
 
 ### Powered by NodeJS and Express framework. Templating powered by Pug.
 
-### Instrunctions: clone repo, cd into directory, run npm install. By default, the app listens on port 4000. Visit http://localhost:4000 to see it in action.
+### Instructions: clone repo, cd into directory, run 'npm install'. Now run 'nodemon'. The app should now be running. By default, the app listens on port 4000. Visit http://localhost:4000 to see it in action.
